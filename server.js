@@ -9,9 +9,9 @@ app.use(express.json());
 // MySQL connection setup
 const db = mysql.createConnection({
   host     : 'localhost', // or your MySQL host
-  user     : 'faheem',
-  password : 'faheem@709213#',
-  database : 'myschooldb'
+  user     : 'myscoemg_faheem',
+  password : 'faheem12345',
+  database : 'myscoemg_db'
 });
 
 db.connect(err => {
